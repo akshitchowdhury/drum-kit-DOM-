@@ -27,7 +27,7 @@ function onclick(){
 }
 
 
-for(var i=0; i< document.getElementsByTagName("button").length; i++){
+for(var i=0; i< document.querySelectorAll(".drum").length; i++){
 
-    document.getElementsByTagName("button")[i].addEventListener("click", onclick)
+    document.querySelectorAll(".drum")[i].addEventListener("click", onclick)
 }
