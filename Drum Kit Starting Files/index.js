@@ -31,5 +31,11 @@ audio.play()
 
 for(var i=0; i< document.querySelectorAll(".drum").length; i++){
 
-    document.querySelectorAll(".drum")[i].addEventListener("click", onclick)
+    document.querySelectorAll(".drum")[i].addEventListener("click", function(){
+
+            let key = this;
+
+            key.style.color = "white"
+        
+    })
 }
